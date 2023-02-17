@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ssms-16</id>
+    <version>13.0.16106.4</version>
+    <packageSourceUrl>https://github.com/flcdrg/chocolatey-ssms</packageSourceUrl>
+    <owners>flcdrg</owners>
+    <title>SQL Server Management Studio 16.5.3</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/mt238290.aspx</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/flcdrg/chocolatey-ssms/master/ssms-icon.png</iconUrl>
+    <copyright>Microsoft 2016</copyright>
+    <licenseUrl>https://msdn.microsoft.com/en-us/library/mt592003.aspx</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <mailingListUrl>https://social.msdn.microsoft.com/forums/en-us/home?forum=sqltools</mailingListUrl>
+    <bugTrackerUrl>https://connect.microsoft.com/SQLServer/Feedback</bugTrackerUrl>
+    <tags>sql server management studio ssms admin</tags>
+    <summary>SQL Server Management Studio (SSMS) is an integrated environment for accessing, configuring, managing, administering, and developing all components of SQL Server</summary>
+    <description>
+SQL Server Management Studio (SSMS) is an integrated environment for accessing, configuring, managing, administering, and developing all components of SQL Server. SSMS combines a broad group of 
+graphical tools with a number of rich script editors to provide developers and administrators of all skill levels access to SQL Server.  This release features improved compatibility with previous versions of SQL Server, 
+a stand-alone web installer, and toast notifications within SSMS when new releases become available.
+	
+#### Supported SQL Server versions
+
+* This version of SSMS works with all supported versions of SQL Server (SQL Server 2008 - SQL Server 2016), and provides the greatest level of support for working with the latest cloud features in Azure SQL Database.
+* There is no explicit block for SQL Server 2000 or SQL Server 2005, but some features may not work properly.
+* Additionally, this version of SSMS can be installed side-by-side with earlier released non-preview versions.
+
+#### Supported Operating systems
+
+This release of SSMS supports the following platforms when used with the latest available service pack:
+Windows 10, Windows 8, Windows 8.1, Windows 7 (SP1), Windows Server 2012 (64-bit), Windows Server 2012 R2 (64-bit), Windows Server 2008 R2 (64-bit)
+
+#### Version Number
+
+This package is versioned using the published build number. The corresponding 'release number' is listed below in the Release Notes section.
+	</description>
+    <releaseNotes>
+#### [SSMS 16.5.3 release](https://msdn.microsoft.com/en-us/library/mt588477.aspx)
+
+The release number: 16.5.3
+The build number for this release: 13.0.16106.4
+No release notes were available at the time of updating this package.
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
