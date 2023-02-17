@@ -1,5 +1,5 @@
-Create package:
-  choco pack sql-server-management-studio.nuspec
+Create package:<br>
+  ```choco pack sql-server-management-studio.nuspec```
 
-Install package:
-  choco install ssms-<16|17|18> -source .
+Install package:<br>
+  ```choco install ssms-<16|17|18> -source .```
